@@ -14,7 +14,7 @@ namespace Imported_Products.Entities
         }
         public override string PriceTag()
         {
-            return Name + " (used)  $" + Price + " (Manufacture date: " +  ManuFactureDate + ")";
+            return Name + " (used) $" + Price + " (Manufacture date: " +  ManuFactureDate.ToString("dd/MM/yyy") + ")";
         }
     }
 }
